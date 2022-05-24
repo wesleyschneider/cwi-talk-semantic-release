@@ -1,0 +1,13 @@
+{
+  "name": "cwi-talk-semantic-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wesleyschneider/cwi-talk-semantic-release.git",
+  "author": "Wesley Schneider <wesley.aires@cwi.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2"
+  }
+}
