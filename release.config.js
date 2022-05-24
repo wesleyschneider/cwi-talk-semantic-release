@@ -7,5 +7,22 @@ module.exports = {
         "npmPublish": false,
       }
     ],
+		"@semantic-release/release-notes-generator",
+		[
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+      }
+    ],
+		[
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md",
+        ],
+        "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+      }
+    ]
 	]
 };
