@@ -1,6 +1,20 @@
 module.exports = {
-	"branches": ["main"],
+	"branches": ["main", "gitmoji"],
 	"plugins": [
+    [
+      "semantic-release-gitmoji",
+      {
+        "releaseRules": {
+          "major": [":boom:"],
+          "minor": [":sparkles:"],
+          "patch": [
+            ":bug:",
+            ":ambulance:",
+            ":lock:"
+          ]
+        }
+      }
+    ],
 		[
       "@semantic-release/npm",
       {
@@ -21,7 +35,7 @@ module.exports = {
           "package.json",
           "CHANGELOG.md",
         ],
-        "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+        "message": "🔖 ${nextRelease.version}\n\n${nextRelease.notes}"
       }
     ]
 	]

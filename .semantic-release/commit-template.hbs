@@ -1,0 +1,6 @@
+[`{{commit.short}}`](https://dev.azure.com/CIEE-RS/Nova%20Plataforma/_git/{{repo}}/commit/{{commit.long}}) {{subject}}
+{{#if wip}}
+  {{#each wip}}
+    - [`{{commit.short}}`](https://dev.azure.com/CIEE-RS/Nova%20Plataforma/_git/{{repo}}/commit/{{commit.long}}) {{subject}}
+  {{/each}}
+{{/if}}
