@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/wesleyschneider/cwi-talk-semantic-release/compare/v0.1.0...v1.0.0) (2022-05-25)
+
+
+### Features
+
+* **ci:** incrementa major ([023f93d](https://github.com/wesleyschneider/cwi-talk-semantic-release/commit/023f93d6c7cb2ed84ffe22868d0030dcf248e4bc))
+
+
+### BREAKING CHANGES
+
+* **ci:** incrementou
+
 # [0.1.0](https://github.com/wesleyschneider/cwi-talk-semantic-release/compare/v0.0.2...v0.1.0) (2022-05-25)
 
 
